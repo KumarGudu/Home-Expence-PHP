@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+  <div class="container">
+  <div class="header">
+    <h2>ADD MEMBER</h2>
+  </div>
+  <form method="post" action="register.php" id="form" class="form" >
+    <div class="form-control">
+      <label for="first_name">First Name</label>
+      <input type="text" placeholder="First Name" name="first_name" id="first_name" />
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="last_name">Last Name</label>
+      <input type="text" placeholder="Last Name" name="last_name" id="last_name" />
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="email" placeholder="Email" name="email" id="email" />
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="mobile_no">Mobile No.</label>
+      <input type="mobile_no" placeholder="Mobile No" name="mobile_no" id="mobile_no"/>
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="description">Description</label>
+      <textarea type="description" placeholder="Description" name="description" id="description"></textarea>
+   
+      <small>Error message</small>
+    </div>
+    <div>
+    <button class="button submit-btn" type="submit" >Submit</button>
+    <input class="button reset-btn" type="Reset">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
